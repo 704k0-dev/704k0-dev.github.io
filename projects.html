@@ -1,13 +1,1 @@
-<script>
-    fetch('https://api.github.com/users/704k0-dev/repos')
-    .then(response => response.json())
-    .then(data => {
-        let container = document.getElementById('repos');
-        data.forEach(repo => {
-            let item = document.createElement('div');
-            item.innerHTML = `<h2><a href="${repo.html_url}" target="_blank">${repo.name}</a></h2>
-                              <p>${repo.description || "Sin descripción"}</p>`;
-            container.appendChild(item);
-        });
-    });
-</script>
+<div id="repos"></div>
