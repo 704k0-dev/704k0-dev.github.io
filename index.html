@@ -5,21 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #D6FFF6;
+            color: #231651;
+        }
+        header {
+            background-color: #231651;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #D6FFF6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #2374AB;
+        }
+        video {
+            width: 60%;
+            border-radius: 10px;
+        }
+        .foto-perfil {
+            width: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+        #repos div {
+            background-color: #4DCCBD;
+            padding: 15px;
+            margin: 10px auto;
+            width: 60%;
+            border-radius: 10px;
+        }
+        #contacto a {
+            color: #FF8484;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Bienvenido a mi página</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="projects.html">Proyectos</a></li>
-                <li><a href="about.html">Sobre Mí</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <p>Hola, soy [Tu Nombre] y este es mi portafolio de proyectos en GitHub.</p>
-    </main>
+    
+    <section id="inicio">
+        <h1>Bienvenido a mi portafolio</h1>
+        <video controls>
+            <source src="assets/videos/curriculum.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+        <img src="assets/images/mi-foto.jpg" alt="Mi Foto" class="foto-perfil">
+    </section>
+    
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Soy un apasionado del desarrollo web y análisis de datos...</p>
+    </section>
+    
+    <section id="proyectos">
+        <h2>Mis Proyectos</h2>
+        <div id="repos"></div>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Email: <a href="mailto:tuemail@gmail.com">tuemail@gmail.com</a></p>
+        <p>LinkedIn: <a href="#">Mi LinkedIn</a></p>
+    </section>
+    
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
