@@ -40,7 +40,9 @@ video {
     width: 150px;
     border-radius: 50%;
     margin-top: 20px;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #repos div {
     background-color: #4DCCBD;
