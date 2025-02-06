@@ -45,15 +45,16 @@ video {
     margin-right: auto;
 }
 #repos div {
-    background-color: #4DCCBD;
+    background-color: rgba(255, 255, 255, 1);
     padding: 20px;
     margin: 15px auto;
     width: 80%;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     gap: 20px;
+    border: 13px solid #4DCCBD;
+    box-shadow: none;
 }
 #repos img {
     width: 120px;
@@ -67,10 +68,10 @@ video {
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    background-color: rgba(255, 255, 255, 0.9);
     padding: 15px;
-    border-radius: 10px;
     flex-grow: 1;
+    border: none;
+    background: transparent;
 }
 #repos h2 {
     font-size: 1.5em;
