@@ -45,7 +45,7 @@ video {
     background-color: #4DCCBD;
     padding: 20px;
     margin: 15px auto;
-    width: 60%;
+    width: 80%;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -59,15 +59,22 @@ video {
     border-radius: 10px;
     flex-shrink: 0;
 }
-#repos h2 {
-    font-size: 1.5em;
-    margin: 0;
+#repos .project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 10px;
     flex-grow: 1;
 }
+#repos h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
 #repos p {
-    flex-grow: 2;
     margin: 0;
-    text-align: left;
 }
 #contacto a {
     color: #FF8484;
