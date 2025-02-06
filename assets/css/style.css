@@ -2,11 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #D6FFF6;
+    color: #231651;
 }
 header {
-    background: #333;
-    color: white;
-    padding: 15px;
+    background-color: #231651;
+    padding: 10px 0;
     text-align: center;
 }
 nav ul {
@@ -18,6 +19,33 @@ nav ul li {
     margin: 0 15px;
 }
 nav ul li a {
-    color: white;
+    color: #D6FFF6;
     text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 50px;
+    text-align: center;
+}
+h1, h2 {
+    color: #2374AB;
+}
+video {
+    width: 60%;
+    border-radius: 10px;
+}
+.foto-perfil {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+#repos div {
+    background-color: #4DCCBD;
+    padding: 15px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 10px;
+}
+#contacto a {
+    color: #FF8484;
 }
