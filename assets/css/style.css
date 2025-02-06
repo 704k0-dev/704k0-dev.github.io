@@ -29,6 +29,8 @@ section {
 }
 h1, h2 {
     color: #2374AB;
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
 }
 video {
     width: 60%;
@@ -44,6 +46,16 @@ video {
     padding: 15px;
     margin: 10px auto;
     width: 60%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#repos img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
     border-radius: 10px;
 }
 #contacto a {
