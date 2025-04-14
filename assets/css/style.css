@@ -173,5 +173,12 @@ video {
   .project-card {
     flex-direction: column;
   }
+
+  .project-left,
+  .project-right {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
 }
+
 
