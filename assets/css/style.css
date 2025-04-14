@@ -106,3 +106,39 @@ video {
 #sobre-mi ul {
     padding-left: 20px;
 }
+
+#proyectos-seo {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    margin: 20px auto;
+    width: 85%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+.project-card {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 20px 0;
+    border-left: 8px solid #2374AB;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.project-card h3 {
+    margin-top: 0;
+    color: #231651;
+}
+
+.project-card p,
+.project-card li {
+    font-size: 1.05em;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.project-card ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
