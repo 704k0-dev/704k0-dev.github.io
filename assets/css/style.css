@@ -107,19 +107,6 @@ video {
     padding-left: 20px;
 }
 
-#proyectos-seo {
-    background-color: rgba(255, 255, 255, 1);
-    padding: 20px;
-    margin: 15px auto;
-    width: 80%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    border: 13px solid #4DCCBD;
-    box-shadow: none;
-}
-
 .project-card {
     background-color: rgba(255, 255, 255, 1);
     padding: 20px;
