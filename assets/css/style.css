@@ -124,16 +124,17 @@ video {
 
 .project-left {
     flex: 1 1 30%;
-    max-width: 35%;
+    max-width: 30%;
 }
 
 .project-right {
-    flex: 1 1 65%;
-    max-width: 65%;
+    flex: 1 1 70%;
+    max-width: 70%;
 }
 
 .project-left img {
-    max-width: 100%;
+    max-width: 280px;
+    width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
