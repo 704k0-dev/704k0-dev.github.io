@@ -108,33 +108,42 @@ video {
 }
 
 .project-card {
-    background-color: rgba(255, 255, 255, 1);
-    padding: 20px;
-    margin: 15px auto;
-    width: 80%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    border: 13px solid #4DCCBD;
-    box-shadow: none;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: center;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 30px auto;
+    width: 85%;
+    border-radius: 12px;
+    border-left: 8px solid #4DCCBD;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
 .project-card h3 {
-    margin-top: 0;
     color: #231651;
+    margin-top: 0;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
 }
 
 .project-card p,
 .project-card li {
-    font-size: 1.05em;
-    line-height: 1.6;
-    margin-bottom: 8px;
+    font-size: 1.1em;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 10px;
 }
 
 .project-card ul {
