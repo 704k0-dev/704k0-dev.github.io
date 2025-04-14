@@ -122,10 +122,14 @@ video {
     flex-wrap: wrap;
 }
 
-.project-left,
+.project-left {
+    flex: 1 1 30%;
+    max-width: 35%;
+}
+
 .project-right {
-    flex: 1 1 300px;
-    min-width: 280px;
+    flex: 1 1 65%;
+    max-width: 65%;
 }
 
 .project-left img {
