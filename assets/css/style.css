@@ -118,6 +118,11 @@ video {
     gap: 20px;
     border: 13px solid #4DCCBD;
     box-shadow: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: left;
 }
 
 .project-card h3 {
