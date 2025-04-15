@@ -119,22 +119,22 @@ video {
     display: flex;
     flex-direction: row;
     gap: 30px;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
 .project-left {
-    flex: 1 1 30%;
-    max-width: 30%;
+    flex: 0 0 260px;
+    max-width: 260px;
 }
 
 .project-right {
-    flex: 1 1 70%;
-    max-width: 70%;
+    flex: 1;
+    max-width: calc(100% - 290px);
 }
 
 .project-left img {
-    max-width: 280px;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -170,6 +170,7 @@ video {
     text-decoration: underline;
 }
 
+/* Responsive fix */
 @media screen and (max-width: 768px) {
   .project-card {
     flex-direction: column;
@@ -181,5 +182,6 @@ video {
     flex-basis: 100%;
   }
 }
+
 
 
